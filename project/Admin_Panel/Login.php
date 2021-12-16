@@ -8,8 +8,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-
   <!--Style link-->
   <link rel="stylesheet" href="../style/home.css" />
   <!--Google Fonts-->
@@ -77,6 +75,7 @@
         </div>
     </form>
 </div>
+
 <!--Footer Section Start-->
 <div class="container-fluid footer py-4 mt-5">
     <div class="row text-center">
@@ -113,7 +112,7 @@
       <p>© 2021 Copyright: Speech to Text</p>
     </div>
   </div>
-  <!--Footer Section End-->
+<!--Footer Section End-->
    
 
      <!-- Optional JavaScript -->

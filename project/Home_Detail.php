@@ -7,8 +7,6 @@
   $email = $_SESSION['email'];
   $query1 = mysqli_query($con, "select user_name from user_detail where user_email='$email'") or die('Error in query');
   $row1 = mysqli_fetch_array($query1);
-
-
 ?>
 
 <!DOCTYPE html>
@@ -22,6 +20,7 @@
   <link rel="stylesheet" href="Bootstrap/css/bootstrap.css" />
   <!--Style link-->
   <link rel="stylesheet" href="style/home.css" />
+  <link rel="stylesheet" href="style/styles.css"/>
   <!--Google Fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <!-- FontAwesome link -->
@@ -50,7 +49,9 @@
               <li class="nav-item px-2">
                 <?php  if($_SESSION['email'] == ''){
                           echo "<a class='nav-link active fw-bold fs-6' aria-current='page' href='Admin_Panel/SignUp.php'>Register</a>";
-                        }else{echo "<a class='nav-link active fw-bold fs-6' aria-current='page' href='Admin_Panel/Logout.php'>Logout</a>";}
+                        }else{
+                          echo "<a class='nav-link active fw-bold fs-6' aria-current='page' href='Admin_Panel/Logout.php'>Logout</a>";
+                        }
                 ?>
                 
               </li>
