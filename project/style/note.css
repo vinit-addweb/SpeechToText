@@ -1,0 +1,35 @@
+#notes {
+    padding-top: 20px;
+    border:1px solid #071531;
+}
+
+.note .header {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.note .date{
+    color:gray;
+}
+
+.note .delete-note,
+.note .listen-note {
+    border: 1px solid white;
+    background-color: #071531;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+    border-radius: 10px;
+    padding:5px 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.note .content{
+    color:'red';
+    margin-bottom: 40px;
+}

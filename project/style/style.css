@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* css for top navbar section start**/
+.nav_bar {
+    background-image: linear-gradient(to right bottom, #051937, #071531, #08112b, #070b25, #05051f);
+    padding: 9px 0;
+	height: 60px;
+}
+
+.nav_bar .btn_link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_bar .nav-item a{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.nav_bar .nav-item span{
+    color: #69D9BF;
+}
+
+.nav_bar .fas{
+    font-size: 25px;
+    font-weight: bold;
+    color: #69D9BF;
+}
+.lang-option img {
+    width: 30px;
+    height: 30px;
+}
+
+.lang-option:hover {
+    background-image: linear-gradient(to right bottom, #051937, #071531, #08112b, #070b25, #05051f);
+    color: white;
+}
+/* css for top navbar end**/
+
+/* css for model section start**/
+.model_box {
+    height: 70%;
+    border-radius: 1%;
+}
+
+.model_header {
+    background-image: linear-gradient(to right bottom, #495d7a, #071531, #08112b, #070b25, #05051f);
+    cursor: pointer;
+}
+
+.model_header input[type=text] {
+    border: none;
+    border-radius: 20px;
+    margin: 0 10px 0 10px;
+    border-bottom: 1px solid rgb(0, 139, 139);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.model_header .fas {
+    color: white;
+    font-size: 25px;
+}
+
+.modal_body a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.modal_body a:hover {
+    text-decoration: none;
+    color:white;
+}
+ /* css for model section End**/
+
+ /* css for mid section start**/
+
+ .note-wrapper-outer{
+     border: 1px solid #0C1A78;
+     border-radius: 5px;
+     margin: 10px 10px;
+     padding: 0 0;
+     flex-grow: 1;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+}
+ .not_title{
+    background-image: linear-gradient(to right bottom, #051937, #071531, #08112b, #070b25, #05051f);
+ }
+ .not_title a{
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+ }
+
+ .not_title a:hover{
+    background-color: #69DADB;
+    text-align: center;
+    transition:.6s ease;
+ }
+ .not_title .fas{
+    width: 24px;
+    height: 24px;
+    color: white;
+ }
+
+ .not_title .fas:hover{
+    color: #051937;
+ }
+ .note_wrapper_inner{
+     padding: 10px 0 0 0;
+     box-sizing: border-box;
+     height: 75vh;
+ }
+ /* css for mid section end**/
+
+ /* css for bottom navbar section start**/
+ .bottom-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #051937, #071531, #08112b, #070b25, #05051f);
+    height: 64px;
+    line-height: 64px;
+ }
+
+ .bottom-navbar .fas {
+    color: white;
+    font-size: 25px;
+}
+
+.far{
+    color: white;
+    font-size: 25px;
+}
+
+.bottom-navbar a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 12px;
+}
+
+.bottom-navbar i{
+    padding: 10px;
+}
+.bottom-navbar i:hover {
+    text-decoration: none;
+    color:#051937;
+    background-color: #69DADB;
+    text-align: center;
+    transition:.6s ease;
+}
+
+.bottom-navbar .center-microphone .mic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    height: 48px;
+    min-width: 48px;
+    font-size: 16px;
+    padding: 0 12px;
+    margin: 0 30px;
+    position: relative;
+}
+
+.bottom-navbar .center-microphone .fas{
+    color: #051937;
+}
+
+.bottom-navbar .center-microphone i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #69DADB;
+    height: 56px !important;
+    width: 56px  !important;
+    box-shadow: 0 8px 6px -6px black;
+    position: absolute;
+    bottom: 15px;
+}
+ /* css for bottom navbar section end**/

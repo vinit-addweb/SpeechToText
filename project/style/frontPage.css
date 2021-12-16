@@ -1,0 +1,268 @@
+/*CSS FOR FRONT PAGE SECTION*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.front_page_section {
+    background-image: linear-gradient(to left top, #29075e, #10114e, #04113a, #050c25, #01040d);
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0%,100% 75%,50% 100%,0 75%,0 0);
+
+}
+
+.front_section {
+    margin-top: -20px;
+}
+
+.fornt_logo{
+    margin-left: 70px;
+}
+/*Css For Left Section start*/
+.left_section {
+    width: 75%;
+}
+
+.left_section h3 {
+    color: yellow;
+}
+
+.left_section .lead {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.68421053em;
+    margin-bottom: 30px;
+}
+
+.left_section a {
+    text-decoration: none;
+    padding: 10px 70px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border: 1px solid blue;
+    border-radius: 40px;
+    background: #051937;
+    transition: 0.5s;
+}
+
+.left_section a:hover {
+    text-decoration: none;
+    background-color: #69DADB;
+    color: #051937;
+    box-shadow: 0 5px 30px gray;
+}
+
+/*Css For Left Section end*/
+
+
+/*Css For Right Section start*/
+.right_section iframe {
+    border-radius: 6px;
+}
+/*Css For Left Section End*/
+
+/*Css for slider End*/
+.owl-carousel{
+    width: 100%;
+    height: 500px;
+}
+.item{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
+}
+
+.item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    /* filter: blur(20px); */
+    box-shadow: inset 0 0 0 1000px rgba(0, 168, 255, 0.3);
+    /* background-color: rgba(255, 230, 1, 0.5); */
+}
+.item-1{
+    background-image: url('../images/slider/slider-6.jpg');
+}
+
+.item-2{
+    background-image: url('../images/slider/slider-13.png');
+}
+.item-3{
+    background-image: url('../images/slider/slider-14.png');
+}
+.item-4{
+    background-image: url('../images/slider/slider-15.png');
+}
+
+.item-content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: black;
+}
+
+.item-content h2{
+    font-weight: bold;
+}
+
+.owl-dots{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 1%;
+}
+
+.owl-dots span{
+    background-color: gray !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.owl-dots .active span{
+    background-color: yellow !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+/*Css for slider End*/
+
+
+/*CSS FOR DETAIL PAGE SECTION START*/
+.detail_page_section {
+    background-image: linear-gradient(to left top, #29075e, #10114e, #04113a, #050c25, #01040d);
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+/* .detail_Section{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+} */
+
+.left_section {
+    width: 75%;
+    font-weight: 400;
+    font-size: 17px;
+    /* line-height: 1.68421053em; */
+}
+
+.left_section h3 {
+    color: yellow;
+}
+
+.detail_page_section img:hover{
+    transform:rotateY(150deg);
+    -webkit-transform:rotateY(150deg);
+    -moz-transform:rotateY(150deg);
+    -ms-transform:rotateY(150deg);
+    -o-transform:rotateY(150deg);
+    transition: 3s ease;
+    -webkit-transition: 3s ease;
+    -moz-transition: 3s ease;
+    -ms-transition: 3s ease;
+    -o-transition: 3s ease;
+}
+
+
+/*CSS FOR FEATURE PAGE SECTION*/
+.feature_page_section {
+    background-image: linear-gradient(to bottom right, #29075e, #10114e, #04113a, #050c25, #01040d);
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.content_section {
+    width: 75%;
+    font-weight: 400;
+    font-size: 17px;
+    /* line-height: 1.68421053em; */
+}
+
+.content_section h3 {
+    color: yellow;
+}
+
+.feature_page_section img:hover{
+    transform:rotateY(150deg);
+    -webkit-transform:rotateY(150deg);
+    -moz-transform:rotateY(150deg);
+    -ms-transform:rotateY(150deg);
+    -o-transform:rotateY(150deg);
+    transition: 3s ease;
+    -webkit-transition: 3s ease;
+    -moz-transition: 3s ease;
+    -ms-transition: 3s ease;
+    -o-transition: 3s ease;
+}
+
+/*CSS FOR DETAIL PAGE SECTION END*/
+
+/*CSS START FOR FOOTER*/
+.footer{
+    background-image: linear-gradient(to right bottom, #051937, #071531, #08112b, #070b25, #05051f);
+  }
+ 
+  .footer h4{
+      color: yellow;
+      text-transform: uppercase;
+  }
+ 
+  .footer h6,p{
+      color: white;
+  }
+ 
+  .footer .hr_border{
+      border-top: 2px solid yellow;
+  }
+ 
+  .social_icon {
+    list-style: none;
+  }
+ 
+  .social_icon li {
+    margin: 0 10px;
+  }
+ 
+  .social_icon a {
+      text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+  }
+ 
+  .social_icon a i {
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color 0.4s ease;
+  }
+ 
+  .social_icon a:hover i {
+    color:yellow;
+  }
+ /*CSS FOR FOOTER END*/
+
+ 
